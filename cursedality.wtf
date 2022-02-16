@@ -4839,7 +4839,7 @@ end
 
 RunService.RenderStepped:Wait()      
 
-local gui = library:New("zakatware.pub")      
+local gui = library:New("cursedality.win")      
 local legit = gui:Tab("legit")      
 local rage = gui:Tab("rage")      
 local visuals = gui:Tab("visuals")      
@@ -5699,7 +5699,7 @@ client:Element("ToggleColor", "hitmarker", {default = {Color = COL3RGB(255,255,2
 						TextLabel.Position = UDim2.new(0, 0, -0.055555556, 0)
 						TextLabel.Size = UDim2.new(0, 16, 0, 18)
 						TextLabel.Font = Enum.Font.SourceSans
-						TextLabel.Text = "Z"
+						TextLabel.Text = "C"
 						TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 						TextLabel.TextSize = 14.000
 						TextLabel.TextStrokeTransparency = 0.000
@@ -5732,7 +5732,7 @@ client:Element("ToggleColor", "hitmarker", {default = {Color = COL3RGB(255,255,2
 						TextLabel_4.Position = UDim2.new(0.0835509151, 0, -0.111111112, 0)
 						TextLabel_4.Size = UDim2.new(0, 30, 0, 20)
 						TextLabel_4.Font = Enum.Font.SourceSans
-						TextLabel_4.Text = "                  zakatware.pub"
+						TextLabel_4.Text = "                  cursedality.win"
 						TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 						TextLabel_4.TextSize = 14.000
 						TextLabel_4.TextStrokeTransparency = 0.000
@@ -5971,7 +5971,7 @@ client:Element("ToggleColor", "hitmarker", {default = {Color = COL3RGB(255,255,2
 						TextLabel.BackgroundTransparency = 1.000
 						TextLabel.Size = UDim2.new(0, 143, 0, 25)
 						TextLabel.Font = Enum.Font.GothamBold
-						TextLabel.Text = "zakatware.pub"
+						TextLabel.Text = "cursedality.wtf"
 						TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 						TextLabel.TextSize = 14.000
 						TextLabel.TextStrokeTransparency = 0.000
@@ -6297,13 +6297,13 @@ local chat = misc:Sector("chat", "Left")
 chat:Element("Toggle", "chat spam", nil, function(tbl)      
 	if tbl.Toggle then      
 		while values.misc.chat["chat spam"].Toggle do      
-			game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(values.misc.chat.type.Dropdown == "zakatik1" and "get tapped by zakatware.pub" or values.misc.chat.type.Dropdown == "zakatik2" and "OWNED LMFAO GET REKT SKIDS$$$" or values.misc.chat.type.Dropdown == "AntiSemi" and "antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$" or values.misc.chat.type.Dropdown == "Vlad" and "Всем привет! Меня зовут Влад А4Глент кобяков и представляетеЭто мой первый хит, да! Ха-хаПодписчики, я вас люблю! (Погнали!)Это Ламба (Врум-врум)А это ГеликВлад-Влад это — бумага, а бумага — это деньги (Ви-и!)Это Ламба (Врум-врум)А это ГеликВлад-Влад это — бумага, а бумага — это деньгиHello, kids! (Hello, kids!)Я — молодой принц (Hello)Я сияю ярко, будто толпы детских лицРадости на лицах (Лицах), будем веселится (Е)А если кнопка красная, ей надо изменится (На серую)Глент, кобяков, глент (Влад Бумага)Глент, кобяков, глент" or values.misc.chat.type.Dropdown == "Bozo" and "HELLO BOZO, HOWS IT GOING?" or values.misc.chat.type.Dropdown == "Clown" and "🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡" or values.misc.chat.type.Dropdown == "Smiles" and "😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋" or values.misc.chat.type.Dropdown == "Money" and "$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$"  or values.misc.chat.type.Dropdown =="Sus" and "Holy fucking shit, I wanna fuck the shit out of Isabelle. I wanna cum in her tight little dog pussy." or values.misc.chat.type.Dropdown == "China" and "我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客" or values.misc.chat.type.Dropdown == "Social Creds" and "😭😭😭 -9999999999999999999999 Social Credits 😭😭😭" or values.misc.chat.type.Dropdown == "Jinping" and "🐀 RATTED BY XI JINPING 🐀 ❌ DONT FUCK ❌ WITH 🔴 CHINESE 🔴 🐉 NIGGAS 🐉" or values.misc.chat.type.Dropdown == "Cheese" and "🤨📸 SAY CHEESE NIGGA, CAUGHT YO ASS IN 4K 🤨📸", false, "Innocent", false, true)  
+			game:GetService("ReplicatedStorage").Events.PlayerChatted:FireServer(values.misc.chat.type.Dropdown == "zw" and "get tapped by cursedality" or values.misc.chat.type.Dropdown == "ZW1" and "OWNED LMFAO GET REKT SKIDS$$$" or values.misc.chat.type.Dropdown == "AntiSemi" and "antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$antisemi$$$$$" or values.misc.chat.type.Dropdown == "Vlad" and "Всем привет! Меня зовут Влад А4Глент кобяков и представляетеЭто мой первый хит, да! Ха-хаПодписчики, я вас люблю! (Погнали!)Это Ламба (Врум-врум)А это ГеликВлад-Влад это — бумага, а бумага — это деньги (Ви-и!)Это Ламба (Врум-врум)А это ГеликВлад-Влад это — бумага, а бумага — это деньгиHello, kids! (Hello, kids!)Я — молодой принц (Hello)Я сияю ярко, будто толпы детских лицРадости на лицах (Лицах), будем веселится (Е)А если кнопка красная, ей надо изменится (На серую)Глент, кобяков, глент (Влад Бумага)Глент, кобяков, глент" or values.misc.chat.type.Dropdown == "Bozo" and "HELLO BOZO, HOWS IT GOING?" or values.misc.chat.type.Dropdown == "Clown" and "🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡" or values.misc.chat.type.Dropdown == "Smiles" and "😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋😀😃😁😂😇🤪😋" or values.misc.chat.type.Dropdown == "Money" and "$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$$$🤑$$"  or values.misc.chat.type.Dropdown =="Sus" and "Holy fucking shit, I wanna fuck the shit out of Isabelle. I wanna cum in her tight little dog pussy." or values.misc.chat.type.Dropdown == "China" and "我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客 我非常喜欢中国黑客" or values.misc.chat.type.Dropdown == "Social Creds" and "😭😭😭 -9999999999999999999999 Social Credits 😭😭😭" or values.misc.chat.type.Dropdown == "Jinping" and "🐀 RATTED BY XI JINPING 🐀 ❌ DONT FUCK ❌ WITH 🔴 CHINESE 🔴 🐉 NIGGAS 🐉" or values.misc.chat.type.Dropdown == "Cheese" and "🤨📸 SAY CHEESE NIGGA, CAUGHT YO ASS IN 4K 🤨📸", false, "Innocent", false, true)  
 			wait(values.misc.chat["speed (ms)"].Slider/1000)      
 			      
 		end      
 	end      
 end)      
-chat:Element("Dropdown", "type", {options = {"zw", "ZW"}})  
+chat:Element("Dropdown", "type", {options = {"zw", "ZW1"}})  
 chat:Element("Slider", "speed (ms)", {min = 50, max = 1000, default = 500})      
 chat:Element("Toggle", "kill say")      
 chat:Element("TextBox", "message", {placeholder = "message"})      
@@ -6460,7 +6460,7 @@ local Main = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
     
 
-Lucid.Name = "zakatware.pub"
+Lucid.Name = "cursedality.wtf"
 Lucid.Parent = game.CoreGui
 Lucid.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -8826,12 +8826,12 @@ end
 
 ChatScript.moveOldMessages()
 
-ChatScript.createNewMessage("zakatware","Build: DEV",MainUIColor,Color3.new(1,1,1),0.01,nil)
+ChatScript.createNewMessage("cursedality","Build: DEV",MainUIColor,Color3.new(1,1,1),0.01,nil)
 
 ChatScript.moveOldMessages()
 
-ChatScript.createNewMessage("zakatware","Version: 0.1.5",MainUIColor,Color3.new(1,1,1),0.01,nil)	
+ChatScript.createNewMessage("cursedality","Version: 0.1.5",MainUIColor,Color3.new(1,1,1),0.01,nil)	
 
 ChatScript.moveOldMessages()
 
-ChatScript.createNewMessage("zakatware","LOL!",MainUIColor,Color3.new(1,1,1),0.01,nil)	
+ChatScript.createNewMessage("cursedality","LOL!",MainUIColor,Color3.new(1,1,1),0.01,nil)	
